@@ -94,6 +94,7 @@ body {
 .message {
     width: 95%;
     height: 300px;
+  text-align: left;
 }
 
 .buttonForm {
@@ -184,7 +185,7 @@ z-index: 1;
 .sidebarAds {
     width: 100%;
     padding: 0;
-    margin: 0;
+  margin-right: 100px;
 }
 
 
@@ -208,3 +209,14 @@ p {
 }
 
 
+
+.indexContent {
+}
+
+#sidebar {
+  margin: 10px;
+}
+
+#twitter {
+  padding: 0px;
+}
