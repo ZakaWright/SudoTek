@@ -11,12 +11,9 @@ jQuery(document).ready(function() {
       jQuery(".nav").removeClass("fixed");
     }
   });
-var slideIndex = 1;
-showDivs(slideIndex);
+});
 
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
+var slideIndex = 1;
 
 function showDivs(n) {
     var i;
@@ -29,4 +26,9 @@ function showDivs(n) {
     x[slideIndex-1].style.display = "block";
 }
 
-});
+
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
