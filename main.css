@@ -108,8 +108,8 @@ body {
   float: left;
   overflow: inherit;
   padding: 5px;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+ height: 400px;
 }
 
 .parent {
@@ -119,4 +119,9 @@ body {
 .productPicture {
     align-content: center;
     margin: 0 auto;
+    width: 220;
+}
+
+.productDescription {
+    margin: auto;
 }
