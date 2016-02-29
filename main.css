@@ -129,3 +129,45 @@ body {
 #email {
     width: 50%;
 }
+
+.btn-floating {
+    border-bottom-left-radius: 50%;
+border-bottom-right-radius 50%;
+border-top-left-radius 50%;
+border-top-right-radius: 50%;
+box-sizing: border-box;
+color: #;
+cursor: pointer;
+display: inline-block;
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+height: 40px;
+line-height: 40px;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: relative;
+text-align: center;
+transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property: all;
+transition-timing-function: ease;
+width: 40px;
+z-index: 1;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#btn-float-left {
+    float: left;
+}
+
+#btn-float-right {
+    float: right;
+}
+
+.slideshow {
+    display: flex;
+    align-items: center;
+}
