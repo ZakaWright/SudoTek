@@ -183,3 +183,8 @@ z-index: 1;
 .promo {
     padding: 0px;
 }
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
