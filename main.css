@@ -188,3 +188,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
 }
+
+.mySlides {
+    height: 300px;
+}
