@@ -171,3 +171,9 @@ z-index: 1;
     display: flex;
     align-items: center;
 }
+
+.sidebarAds {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
