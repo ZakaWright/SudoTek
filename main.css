@@ -28,6 +28,7 @@ a {
     text-decoration: none;
     color: inherit;
      padding-left: 10px;
+    overflow: hidden;
 }
 
 .fixed {
@@ -101,4 +102,21 @@ body {
 
 #home {
     padding-left: 15%;
+}
+
+.product {
+  float: left;
+  overflow: inherit;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+}
+
+.parent {
+    overflow: hidden;
+}
+
+.productPicture {
+    align-content: center;
+    margin: 0 auto;
 }
