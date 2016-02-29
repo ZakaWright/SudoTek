@@ -125,3 +125,7 @@ body {
 .productDescription {
     margin: auto;
 }
+
+#email {
+    width: 50%;
+}
