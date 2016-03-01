@@ -200,7 +200,6 @@ p {
 }
 
 .mySlides {
-    //min-height: 300px;
     max-height: 650px;
     max-width: 100%
 }
